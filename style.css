@@ -12,4 +12,35 @@
     margin-left: 50;
     margin-top: 20;
     z-index: 1;
-};
+}
+
+#title {
+    position: relative;
+    z-index: 2;
+    color: rgb(238, 238, 238); 
+    font-family: 'Merriweather', serif; 
+    font-size: 100px; 
+    font-weight: 300; 
+    line-height: 40px; 
+    text-align: center; 
+    text-shadow: #2a8d7b -1px -1px;
+    margin-right: 800;
+    margin-top: 150;
+}
+
+#paragrafo {
+    position: relative;
+    z-index: 2;
+    color: #eee; 
+    font-family: 'Droid Sans', sans-serif; 
+    font-size: 15px; 
+    margin-right: 10;
+    margin-top: -2;
+}
+
+#login {
+    position: relative;
+    z-index: 2;
+}
+
+
