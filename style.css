@@ -33,7 +33,7 @@
     z-index: 2;
     color: #eee; 
     font-family: 'Droid Sans', sans-serif; 
-    font-size: 15px; 
+    font-size: 20px; 
     margin-right: 10;
     margin-top: -2;
 }
@@ -41,6 +41,62 @@
 #login {
     position: relative;
     z-index: 2;
+    margin-left: 900px;
+    margin-top: -100px;
+    background-color: #79787869;
 }
 
+.btnSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 3%;
+    margin-top:25px ;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form-1 .btnSubmit{
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+}
+
+.login-form-1 .ForgetPwd{
+    color: #0062cc;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.login-container form{
+    padding: 10%;
+}
+
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-form-1{
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+    text-align: center;
+    color: #333;
+}
+
+#login-title {
+    margin-left: -200px;
+}
+
+.form-control {
+    border-radius: 5px;
+    background-color: #615f5fc2;
+    padding: 10px;
+}
+
+.footer{
+    position: absolute;
+    z-index: 1;
+    margin-left: 300px;
+}
 
